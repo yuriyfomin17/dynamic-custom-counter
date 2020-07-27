@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dynamic-custom-counter/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/dynamic-custom-counter/static/js/main.e0239a56.chunk.js",
+    "main.js.map": "/dynamic-custom-counter/static/js/main.e0239a56.chunk.js.map",
+    "runtime-main.js": "/dynamic-custom-counter/static/js/runtime-main.db1b33dc.js",
+    "runtime-main.js.map": "/dynamic-custom-counter/static/js/runtime-main.db1b33dc.js.map",
+    "static/js/2.34a8cb10.chunk.js": "/dynamic-custom-counter/static/js/2.34a8cb10.chunk.js",
+    "static/js/2.34a8cb10.chunk.js.map": "/dynamic-custom-counter/static/js/2.34a8cb10.chunk.js.map",
+    "index.html": "/dynamic-custom-counter/index.html",
+    "precache-manifest.8d6a0312a118e5d0d608c16b9bf08f9a.js": "/dynamic-custom-counter/precache-manifest.8d6a0312a118e5d0d608c16b9bf08f9a.js",
+    "service-worker.js": "/dynamic-custom-counter/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/dynamic-custom-counter/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.34a8cb10.chunk.js.LICENSE.txt": "/dynamic-custom-counter/static/js/2.34a8cb10.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db1b33dc.js",
+    "static/js/2.34a8cb10.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.e0239a56.chunk.js"
+  ]
+}
