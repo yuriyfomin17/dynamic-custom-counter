@@ -74,18 +74,20 @@ function App() {
             <fieldset>
                 <legend>Default Counter</legend>
                 <div className="App">
-                    <button onClick={addCounter}>Add counter</button>
-                    <button onClick={DeleteAll}> Delete all counters</button>
-                    <button onClick={ResetAll}> Reset all to zero</button>
-                    {counter.map((el, index) => <Counter
-                            count={el}
-                            key={index}
-                            index={index}
-                            plusOne={plusOne}
-                            resetCounter={resetCounter}
-                            destroyCounter={destroyCounter}
-                        />
-                    )}
+                    <button className="btn-primary" onClick={addCounter}>Add counter</button>
+                    <button className="btn-primary" onClick={DeleteAll}> Delete all counters</button>
+                    <button className="btn-primary" onClick={ResetAll}> Reset all to zero</button>
+                    <ul className="list-group">
+                        {counter.map((el, index) => <Counter
+                                count={el}
+                                key={index}
+                                index={index}
+                                plusOne={plusOne}
+                                resetCounter={resetCounter}
+                                destroyCounter={destroyCounter}
+                            />
+                        )}
+                    </ul>
 
                 </div>
             </fieldset>

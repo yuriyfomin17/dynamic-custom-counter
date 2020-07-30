@@ -4,14 +4,15 @@ const ShowInput = props => {
     if (props.Button) {
         return (<div>
             <legend>Enter magnitude of change (min=1, max=5)</legend>
-            <input onChange={props.checkEvent} />
+            <input onChange={props.checkEvent}/>
         </div>);
     } else {
-        return <button onClick={props.destroyButton}>Add Custom Counter</button>
+        return <button onClick={props.changeButton}>Add Custom Counter</button>
     }
     return null
 
 }
+
 function CustomCounterAdd(props) {
     const [Button, setButton] = useState(false)
     const checkEvent = (event) => {
@@ -27,7 +28,7 @@ function CustomCounterAdd(props) {
 
     return (
         <div>
-            <ShowInput Button={Button} checkEvent={checkEvent} destroyButton={changeButton} setter={setButton}/>
+            <ShowInput Button={Button} checkEvent={checkEvent} changeButton={changeButton} setter={setButton}/>
 
         </div>
     )
