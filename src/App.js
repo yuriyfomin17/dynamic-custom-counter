@@ -70,6 +70,7 @@ function App() {
     }
 
     return (
+
         <center>
             <fieldset>
                 <legend>Default Counter</legend>
