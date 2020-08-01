@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const ShowInput = props => {
+const ShowInput = (props) => {
     if (props.Button) {
         return (<div>
             <legend>Enter magnitude of change (min=1, max=5)</legend>
@@ -9,10 +9,12 @@ const ShowInput = props => {
     } else {
         return <button onClick={props.changeButton}>Add Custom Counter</button>
     }
-    return null
+    // eslint-disable-next-line no-unreachable
+
 
 }
 
+/* This is the separate component for a button component */
 function CustomCounterAdd(props) {
     const [Button, setButton] = useState(false)
     const checkEvent = (event) => {
@@ -22,13 +24,14 @@ function CustomCounterAdd(props) {
         }
     }
 
+
     const changeButton = () => {
         setButton(!Button)
     }
 
     return (
         <div>
-            <ShowInput Button={Button} checkEvent={checkEvent} changeButton={changeButton} setter={setButton}/>
+            <ShowInput Button={Button} checkEvent={checkEvent} changeButton={changeButton}/>
 
         </div>
     )
